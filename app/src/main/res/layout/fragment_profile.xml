@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".profile.ProfileFragment">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/profileVerticalGuideline1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.08" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/profileVerticalGuideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.92" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/profileTopGuide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.15" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/profileMidGuide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.35" />
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:gravity="center_horizontal"
+            android:textSize="35sp"
+            app:layout_constraintEnd_toEndOf="@id/profileVerticalGuideline2"
+            app:layout_constraintStart_toStartOf="@id/profileVerticalGuideline1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/profileImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintEnd_toEndOf="@id/profileVerticalGuideline2"
+            app:layout_constraintStart_toStartOf="@id/profileVerticalGuideline1"
+            app:layout_constraintTop_toBottomOf="@id/nameTextView"
+            app:srcCompat="@drawable/profile_top_bar_avatar" />
+
+        <TextView
+            android:id="@+id/birthYearTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/primary_text"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/profileVerticalGuideline2"
+            app:layout_constraintStart_toStartOf="@id/profileVerticalGuideline1"
+            app:layout_constraintTop_toBottomOf="@id/profileImageView" />
+
+        <GridLayout
+            android:id="@+id/profileGridLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:columnCount="4"
+            app:layout_constraintBottom_toTopOf="@id/profileMidGuide"
+            app:layout_constraintEnd_toEndOf="@id/profileVerticalGuideline2"
+            app:layout_constraintStart_toStartOf="@id/profileVerticalGuideline1"
+            app:layout_constraintTop_toBottomOf="@id/birthYearTextView">
+
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/aboutMeTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_border"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="@color/primary_text"
+            app:layout_constraintStart_toStartOf="@id/profileVerticalGuideline1"
+            app:layout_constraintEnd_toEndOf="@id/profileVerticalGuideline2"
+            app:layout_constraintTop_toBottomOf="@id/profileGridLayout"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:id="@+id/bugImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:minWidth="24dp"
+            android:minHeight="24dp"
+            android:src="@drawable/profile_bug"
+            app:layout_constraintStart_toStartOf="@id/profileVerticalGuideline1"
+            app:layout_constraintTop_toBottomOf="@id/aboutMeTextView" />
+
+        <TextView
+            android:id="@+id/reportBugTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:clickable="true"
+            android:fontFamily="@font/poppins_medium"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:text="@string/report_bugs"
+            app:layout_constraintStart_toEndOf="@id/bugImageView"
+            app:layout_constraintTop_toTopOf="@id/bugImageView" />
+
+        <ImageView
+            android:id="@+id/languageImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:minWidth="24dp"
+            android:minHeight="24dp"
+            android:src="@drawable/profile_language"
+            app:layout_constraintStart_toStartOf="@id/profileVerticalGuideline1"
+            app:layout_constraintTop_toBottomOf="@id/bugImageView" />
+
+        <TextView
+            android:id="@+id/languageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:clickable="true"
+            android:fontFamily="@font/poppins_medium"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:text="@string/language"
+            app:layout_constraintStart_toEndOf="@+id/languageImageView"
+            app:layout_constraintTop_toTopOf="@+id/languageImageView" />
+
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/darkModeSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-7dp"
+            app:layout_constraintStart_toStartOf="@id/profileVerticalGuideline1"
+            app:layout_constraintTop_toBottomOf="@id/languageImageView" />
+
+        <TextView
+            android:id="@+id/darkModeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/darkMode"
+            app:layout_constraintBottom_toBottomOf="@id/darkModeSwitch"
+            app:layout_constraintStart_toEndOf="@id/darkModeSwitch"
+            app:layout_constraintTop_toTopOf="@id/darkModeSwitch" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

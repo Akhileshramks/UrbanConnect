@@ -1,0 +1,202 @@
+<resources>
+    <string name="app_name">CloseBySocialize</string>
+
+
+    // maps
+
+    <string name="google_maps_api_key">AIzaSyCj1cLlJFyBL7gfgpURZzCSWw9B1evS-zE</string>
+
+    // top bar
+    <string name="page_title">Page title</string>
+    <string name="title_events">Events</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_edit_profile">Edit Profile</string>
+    <string name="title_add_event">Request for Help</string>
+    <string name="title_message">Conversations</string>
+    <string name="title_map">Map</string>
+    <string name="title_my_events">My events</string>
+
+
+    // bottom nav
+    <string name="events">Events</string>
+    <string name="message">Messages</string>
+    <string name="map">Map</string>
+    <string name="profile">Profile</string>
+
+    <string name="events_fragment">Events</string>
+    <string name="message_fragment">Message</string>
+    <string name="map_fragment">Map</string>
+    <string name="profile_fragment">Profile</string>
+
+
+    // profile menu
+    <string name="edit_profile">Edit profile</string>
+    <string name="log_out">Log out</string>
+    <string name="my_events">My events</string>
+
+
+    // profile- and profile edit page
+    <string name="interests">Interests:</string>
+    <string name="name">Name:</string>
+    <string name="about_me">About me:</string>
+    <string name="report_bugs">Report bugs</string>
+    <string name="go_back">Back to previous page</string>
+    <string name="profile_pic_explain">Your profile picture</string>
+    <string name="year_pic_explain">Your date of birth</string>
+    <string name="language">Language</string>
+    <string name="darkMode">Dark Mode</string>
+    <string name="airplane">Airplane image</string>
+    <string name="cooking">Cooking image</string>
+    <string name="cinema">Cinema image</string>
+    <string name="dog">DogWalks image</string>
+    <string name="book">Book image</string>
+    <string name="garden">Garden image</string>
+    <string name="stroller">Stroller image</string>
+    <string name="coffee">Coffee image</string>
+    <string name="restaurant">Restaurant image</string>
+    <string name="sport">Sport image</string>
+    <string name="game">Game image</string>
+    <string name="theatre">Theatre image</string>
+    <string name="birth_year">Select birth year:</string>
+    <string name="save_all">Save all</string>
+
+    // events
+    <string name="saved">Saved</string>
+    <string name="all">All</string>
+    <string name="attending">Attending</string>
+    <string name="city">Helsingborg</string>
+    <string name="event_type">Coffee</string>
+    <string name="event_name">Vallmanscafé</string>
+    <string name="event_location">Kullagatan</string>
+    <string name="event_day">Friday</string>
+    <string name="event_time">2 PM</string>
+    <string name="event_date">2024-03-22</string>
+    <string name="event_name_age">Fredrik,21</string>
+    <string name="event_description">Lorem ipsum dolor sit amet consectetur. Elit eget pulvinar aenean ac. Risus imperdiet arcu tortor facilisi cras vitae feugiat cursus enim pellentesque.</string>
+    <string name="event_attend">I can help</string>
+    <string name="event_withdraw">Withdraw</string>
+    <string name="event_attend_spots">2/4 spots</string>
+    <string name="signed_up">You signed up to the event!</string>
+    <string name="spots">spots open</string>
+    <string name="event_full">Event is full</string>
+    <string name="event_happening_time">Event time</string>
+    <string name="time_created">Time created</string>
+    <string name="distance">Distance</string>
+    <string name="more_attendees_count">%d more</string>
+    <string name="available_spots">%1\$s spots open</string>
+    <string name="current_spots">spots</string>
+    <string name="available_spots_format">%d %s</string>
+
+    // chat
+    <string name="author_comment">This is a comment</string>
+    <string name="write_a_comment">Write a comment...</string>
+    <string name="post">Post</string>
+    <string name="reply_comment">Your reply</string>
+
+    <string name="option_1">Option 1</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_3">Option 3</string>
+    <string name="text_filter_2">Option 3</string>
+    <string name="text_filter_3">Option 3</string>
+    <string name="text_filter_4">Option 3</string>
+    <string name="text_filter_5">Option 3</string>
+    <string name="text_filter_6">Option 3</string>
+
+
+    // splash screen
+    <string name="close_by_socialize">CloseBySocialize</string>
+    <string name="splash_message">Talk to thy neighbour</string>
+
+    // login screen
+    <string name="log_in">Log in</string>
+    <string name="email_address">Email address</string>
+    <string name="registered_email">your registered email address</string>
+    <string name="password">Password</string>
+    <string name="registered_password">your registered password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login_buttonText_email">Sign in with Email</string>
+    <string name="login_buttonText_google">Sign in with Google</string>
+    <string name="login_buttonText_github">Sign in with Github</string>
+    <string name="login_buttonText_facebook">Sign in with Facebook</string>
+
+    // sign up screen
+    <string name="sign_up">Sign up</string>
+    <string name="example_mail">example@gmail.com</string>
+    <string name="create_password">Create a password</string>
+    <string name="max_password_chars">must be at least 6 characters</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="repeat_password">repeat password</string>
+
+    // forgot password screen
+    <string name="reset_password">Reset password</string>
+    <string name="help_password">Please type a password you\'ll remember</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+
+    // Google Client ID
+    <string name="default_web_client_id">413888895821-11vgur7plqpme9pjk09hce41r6k28jm3.apps.googleusercontent.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    // Facebook Client ID
+    <string name="facebook_app_id">3196808700613916</string>
+    <string name="fb_login_protocol_scheme">fb3196808700613916</string>
+    <string name="facebook_client_token">f8cba8f6fbdf119830765ca32a2ab6b7</string>
+
+
+    // Friends
+    <string name="friend_name">Friend name</string>
+    <string name="remove_friend">Remove Friend</string>
+    <string name="friends">Friends</string>
+    <string name="add_friend">Add Friend</string>
+
+    // Message
+    <string name="write_a_message">Write a message…</string>
+    <string name="date_unknown">Date unknown</string>
+    <string name="yesterday_with_time">Yesterday, %1$s</string>
+    <string name="date_time_format">dd MMMM HH:mm</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
+
+    // chat
+    <string name="just_now">Just now</string>
+    <string name="like">Like</string>
+    <string name="reply">Reply</string>
+    <string name="reply_hint">Comment as</string>
+    <string name="cancel">Cancel</string>
+
+    <plurals name="years_ago">
+        <item quantity="one">%d y</item>
+        <item quantity="other">%d y</item>
+    </plurals>
+    <plurals name="months_ago">
+        <item quantity="one">%d m</item>
+        <item quantity="other">%d m</item>
+    </plurals>
+    <plurals name="weeks_ago">
+        <item quantity="one">%d w</item>
+        <item quantity="other">%d w</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="one">%d d</item>
+        <item quantity="other">%d d</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="one">%d h</item>
+        <item quantity="other">%d h</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="one">%d m</item>
+        <item quantity="other">%d m</item>
+    </plurals>
+
+
+
+
+</resources>

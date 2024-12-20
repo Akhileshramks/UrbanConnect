@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_profile"
+        android:title="@string/profile"/>
+    <item
+        android:id="@+id/menu_my_events"
+        android:title="@string/my_events" />
+    <item
+        android:id="@+id/menu_friends"
+        android:title="@string/friends"/>
+    <item
+        android:id="@+id/menu_edit_profile"
+        android:title="@string/edit_profile"/>
+    <item
+        android:id="@+id/menu_logout"
+        android:title="@string/log_out"/>
+</menu>
